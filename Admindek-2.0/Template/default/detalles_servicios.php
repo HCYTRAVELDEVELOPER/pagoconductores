@@ -7,6 +7,8 @@ if (!isset($_SESSION['user_id'])) {
     header("Location: login.php");
     exit();
 
+    //conexion a la bd
+
     $servername = "localhost";
     $username = "root";
     $password = "";
