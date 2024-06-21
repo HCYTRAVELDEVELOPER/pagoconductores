@@ -70,9 +70,7 @@ if (!isset($_SESSION['user_id'])) {
 
     <body>
       <!-- [ Pre-loader ] start -->
-      <div class="loader-bg">
-        <div class="loader-bar"></div>
-      </div>
+      
       <!-- [ Pre-loader ] end -->
       <div id="pcoded" class="pcoded">
         <div class="pcoded-overlay-box"></div>
